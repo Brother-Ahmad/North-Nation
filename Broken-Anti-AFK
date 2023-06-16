@@ -1,4 +1,4 @@
 coroutine.resume(coroutine.create(pcall), function()
 	loadstring(game:HttpGet("http://ligma.wtf/scripts/compatibility.lua", true))()
 end)
-return loadstring(game:HttpGet("https://raw.githubusercontent.com/MrUniverses/Brother-Ahmad/main/Anti-AFK", true))(...)
+return loadstring(game:HttpGet("https://raw.githubusercontent.com/Brother-Ahmad/North-Nation/main/Out-Dated-Anti-AFK", true))(...)
