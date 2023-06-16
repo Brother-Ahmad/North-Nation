@@ -94,12 +94,6 @@ end
 coroutine.wrap(NERMBF_fake_script)()
 
 -----------------------------------------------------------------------------
-local vu = game:GetService("VirtualUser")
-game:GetService("Players").LocalPlayer.Idled:connect(function()
-   vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
-   wait(1)
-   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
-end)
 -----------------------------------------------------------------------------
 wait(0.5)local ba=Instance.new("ScreenGui")
 local ca=Instance.new("TextLabel")local da=Instance.new("Frame")
@@ -122,14 +116,6 @@ bb:CaptureController()bb:ClickButton2(Vector2.new())
 ab.Text="Roblox tried kicking you buy I didnt let them!"wait(2)ab.Text="Status : Active"end)
 
 -----------------------------------------------------------------------------
-
-wait(3)
-local VirtualUser=game:service'VirtualUser'
-game:service('Players').LocalPlayer.Idled:connect(function()
-VirtualUser:CaptureController()
-VirtualUser:ClickButton2(Vector2.new())
-end)
-
 -----------------------------------------------------------------------------
 
 setfpscap(10000)
