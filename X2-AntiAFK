@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Brother-Ahmad/North-Nation/main/Broken-Anti-AFK", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Brother-Ahmad/North-Nation/main/Anti-Afk-Collection", true))()
