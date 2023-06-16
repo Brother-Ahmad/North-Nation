@@ -27,7 +27,7 @@ Title.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 Title.BorderSizePixel = 0
 Title.Size = UDim2.new(0, 295, 0, 16)
 Title.Font = Enum.Font.GothamBold
-Title.Text = "Ahmad's Anti-Afk"
+Title.Text = "Ahmad Anti-Afk"
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title.TextScaled = true
 Title.TextSize = 12.000
@@ -116,7 +116,7 @@ _b.Size=UDim2.new(0,370,0,21)_b.Font=Enum.Font.Arial;_b.Text="Made by Brother Ah
 _b.TextColor3=Color3.new(1,1,1)_b.TextSize=20;ab.Parent=da
 ab.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)ab.Position=UDim2.new(0,0,0.158377,0)
 ab.Size=UDim2.new(0,370,0,44)ab.Font=Enum.Font.ArialBold;ab.Text="Status: Active"
-ab.TextColor3=Color3.new(0, 255, 127)ab.TextSize=20;local bb=game:service'VirtualUser'
+ab.TextColor3=Color3.new(0,255,127)ab.TextSize=20;local bb=game:service'VirtualUser'
 game:service'Players'.LocalPlayer.Idled:connect(function()
 bb:CaptureController()bb:ClickButton2(Vector2.new())
 ab.Text="Roblox tried kicking you buy I didnt let them!"wait(2)ab.Text="Status : Active"end)
